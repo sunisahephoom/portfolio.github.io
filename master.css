@@ -1,0 +1,114 @@
+a {
+  color:blue;
+  text-decoration: : none;
+}
+
+a:hover {
+color: #DC1B9C;  /* set the text color to red here */
+  text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+}
+body{
+  background-color: white;
+  color: black;
+  font-family: Futara;
+  text-align: center;
+  line-height: 0.7;
+
+footer{
+  margin-top: 2rem;
+  margin-bottom:2rem;
+}
+h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    border: 1px solid black;
+    padding: 1px 0 5px 5px;
+        font-size: 50px;
+      background: #7bb8ba;
+   }
+
+  h2 {
+      color:black; font-family:cursive;
+      font-size: 40px;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    text-decoration: underline;
+
+   }
+
+  h3 {
+    font-size: 20 px;
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+  }
+
+  hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .container table {
+
+  	border: 0.5px solid red;
+    font-size: 20px;
+  	/* You can also uncomment this and remove the align="center" attribute
+  		margin: 0 auto;
+  	*/
+  }
+  .box {
+      width: 75%;
+      height: 100vh;
+  	text-align: center;
+  	border: 1px solid green;
+  	padding left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(../images/resume1.jpg);
+    background-position: :center;
+    background-size: cover;
+}
+
+.Gallery{
+  width: 75%;
+  height: 100vh;
+}
+p {
+  font-size: 20px;
+}
+  }
+
+.borderexample {
+ border-style:solid;
+ border-color:#287EC7;
+}
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+      }
+  /*
+ this controls how the bullet points in the resume page looks */
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  div {
+border: 2px solid blue;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+
+
+
+  }
